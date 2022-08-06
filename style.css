@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap');
+*{
+    margin: 0;
+    padding: 0; }
+body{
+    font-family: 'Red Hat Display', sans-serif; 
+    background-image: url(images/pattern-background-desktop.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: hsl(225, 100%, 94%);}
+.wrapper{   
+    margin: 70px 0 20px;
+    height: 500px;
+    width:300px;
+    background-color: white;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0px 10px 20px  hsl(224, 23%, 55%, .4);}
+.content
+    {
+    margin: 20px;}
+.hero
+    {
+    width: 100%;}
+.text
+    {
+    text-align: center;}
+.title{
+    font-size: 20px;
+    font-weight: 900;}
+.detail{
+    line-height: 1.4rem;
+    font-size: 13px;
+    font-weight: bold;
+    color: hsl(224, 23%, 55%);
+    margin: 17px;}
+.plan-box{   
+    display: flex;
+    margin: 10px;
+    justify-content: space-between;
+    background-color:hsl(225, 100%, 98%);
+    font-size: 13px;
+    padding: 10px;
+    font-weight: 900;
+    border-radius: 10px;}
+.left-box
+    {
+    display: flex;}
+.icon
+    {
+    margin-right: 15px;}
+.anual-plan
+    {
+    margin-top: 5px;}
+.amount
+    {
+    color:hsl(224, 23%, 55%) ;}
+.btn{
+    cursor: pointer;
+    font-weight: 700;
+    border: none;}
+.change-btn{
+    background: none;
+    color:hsl(245, 75%, 52%);
+    text-decoration-line:underline ;}
+.change-btn:hover
+    {
+    text-decoration-line: none;}
+.payment-btn{
+    margin: 13px 0px 20px 13px;
+    padding: 10px 60px 10px 50px;
+    background-color:  hsl(245, 75%, 52%); 
+    color: white;
+    border-radius: 8px;
+    box-shadow: 0px 15px 10px  rgba(55, 53, 68, 0.2); }
+.payment-btn:hover
+{
+    background-color:hsl(245, 75%, 52% ,.7);}
+.cancel-order-btn{
+    margin-left: 90px;
+    background-color: white;
+    color:hsl(224, 23%, 55%); }
+.cancel-order-btn:hover
+{
+    color:black;}
+    @media screen and (max-width:400px) {
+        body{
+                background-image: url(images/pattern-background-mobile.svg);
+                background-size: cover;
+            }
+        }
+.atribution { font-size: 11px; text-align: center; }
+.atribution a { color: hsl(228, 45%, 44%)}; 
