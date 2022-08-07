@@ -88,8 +88,8 @@ body{
     color:black;}
     @media screen and (max-width:400px) {
         body{
-                background-image: url(images/pattern-background-mobile.svg);
-                background-size: cover;
+            background-image: url(images/pattern-background-mobile.svg);
+            background-size: cover;
             }
         }
 .atribution { font-size: 11px; text-align: center; }
